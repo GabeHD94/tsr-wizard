@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #101937 ;
+    padding: 3rem;
+    text-align: center;
+}
+
+/* .nav-menu {
+    min-width: 696px;
+	list-style: none;
+}
+
+.nav-item {
+    display: inline;
+} */
+
+.nav-bars{
+    color: white;
+    text-decoration: none;
+    padding: 3rem;
+    transition: 0.3s;
+}
+
+
+.nav-bars:hover {
+    background: rgb(17, 179, 255);
+}
+
+.alderlogo {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
+
