@@ -1,24 +1,27 @@
+
+
 .navbar {
     background-color: #101937 ;
-    padding: 3rem;
-    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 10vh;
 }
 
-/* .nav-menu {
-    min-width: 696px;
-	list-style: none;
-}
-
-.nav-item {
-    display: inline;
-} */
 
 .nav-bars{
     color: white;
     text-decoration: none;
-    padding: 3rem;
-    transition: 0.3s;
+    padding: 2vw;
+    transition: 0.3s; 
 }
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 
 .nav-bars:hover {
@@ -30,6 +33,11 @@
     width: auto;
     max-height: 72px;
     max-width: 250px;
+}
+
+.nav-logo{
+    margin-right: 18vw;
+    margin-left: 2vw
 }
 
 
