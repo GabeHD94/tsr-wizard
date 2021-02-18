@@ -7,6 +7,7 @@ import Cameras from './components/pages/Cameras/Cameras';
 import Zwave from './components/pages/Zwave/Zwave';
 import Apps from './components/pages/Apps/Apps';
 import Other from './components/pages/Other/Other';
+import Home from './components/pages/Home/Home'
 import Navbar from './components/Navbar';
 
 function App() {
@@ -26,11 +27,5 @@ function App() {
   );
 }
 
-const Home = () => (
-  <div>
-    <h1>
-      Home Page
-    </h1>
-  </div>
-);
+
 export default App;

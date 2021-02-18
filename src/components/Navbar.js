@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../alderlogo.png';
 
+
 function Navbar() {
+
+
     return (
         <>
         <div className='navbar'>
@@ -11,6 +14,7 @@ function Navbar() {
                 <a href='/'><img src={logo} className='alderlogo' alt='logo'/></a>
             </div>
             <div className='nav-links'>
+                <ul>
                 <Link to='/' className='nav-bars' >
                     Home
                 </Link>
@@ -24,15 +28,16 @@ function Navbar() {
                 <Link to='/cameras' className='nav-bars' >
                     Cameras
                 </Link>
-                <Link to='zwave' className='nav-bars' >
+                <Link to='/zwave' className='nav-bars' >
                     Z-Wave
                 </Link>
-                <Link to='apps' className='nav-bars' >
+                <Link to='/apps' className='nav-bars' >
                     Apps
                 </Link>
-                <Link to='other' className='nav-bars' >
+                <Link to='/other' className='nav-bars' >
                     Other
-                </Link>
+                </Link>\
+                </ul>
             </div>
         </div>
     </>

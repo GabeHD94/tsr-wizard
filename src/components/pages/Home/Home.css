@@ -1,0 +1,25 @@
+
+.common-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 100px 0px 100px;
+}
+
+.common-links {
+    display: grid;
+    align-items: center;
+    background-color: rgb(151, 151, 151);
+    list-style: none;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 15rem;
+    min-height: 10rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+.common-links img {
+    margin: 10px;
+}
