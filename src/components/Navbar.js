@@ -36,7 +36,7 @@ function Navbar() {
                 </Link>
                 <Link to='/other' className='nav-bars' >
                     Other
-                </Link>\
+                </Link>
                 </ul>
             </div>
         </div>

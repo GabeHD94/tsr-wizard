@@ -1,7 +1,7 @@
 
 
 .navbar {
-    background-color: #101937 ;
+    background-color: #23c1fff8 ;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -25,7 +25,7 @@
 
 
 .nav-bars:hover {
-    background: rgb(17, 179, 255);
+    background: rgb(10, 122, 173);
 }
 
 .alderlogo {

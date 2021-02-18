@@ -9,16 +9,19 @@ import Motionsvg from '../../../svgs/running-solid.svg'
 import Pendantsvg from '../../../svgs/clinic-medical-solid.svg'
 import Panelsvg from '../../../svgs/mobile-alt-solid.svg'
 import Glassbreaksvg from '../../../svgs/sound-bars-pulse.svg'
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
         <div>
             <h1>Common Equipment</h1>
             <ul className='common-wrapper'>
-                <li className='common-links'>
-                    <img src = {Panelsvg} alt='gig-panel' height="87" width="87"></img>
-                        2GIG Panel
-                </li>
+                <Link to='/2gig' className='common-bars' >
+                    <li className='common-links'>
+                        <img src = {Panelsvg} alt='gig-panel' height="87" width="87"></img>
+                            2GIG Panel
+                    </li>
+                </Link>
                 <li className='common-links'>
                     <img src = {Panelsvg} alt='simple-panel' height="87" width="87"></img>
                         Alder Simple Panel
