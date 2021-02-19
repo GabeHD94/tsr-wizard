@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        /*Navbar routes*/
+        {/*Navbar routes*/}
         <Route path='/' exact component={Home}/>
         <Route path='/sensors' component={Sensors}/>
         <Route path='/panels' component={Panels}/>
@@ -24,7 +24,7 @@ function App() {
         <Route path='/zwave' component={Zwave}/>
         <Route path='/apps' component={Apps}/>
         <Route path='/other' component={Other}/>
-        /*Common routes*/
+        {/*Common routes*/}
         <Route path='/2gig' component={Twogig}/>
       </Switch>
     </Router>

@@ -1,0 +1,9 @@
+.tg-arm-disarm {
+    display: grid;
+    color: gray;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    min-width: 100rem;
+    min-height: 10rem;
+}
