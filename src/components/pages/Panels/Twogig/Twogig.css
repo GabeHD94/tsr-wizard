@@ -1,0 +1,30 @@
+.twogig-wrapper {
+    display: grid;
+    align-items: center;
+    background-color: rgb(21, 32, 51);
+    list-style: none;
+    width: 300px;
+    padding: 10px;
+    min-width: 15rem;
+    min-height: 10rem;
+    font-weight: bold;
+    font-size: small;
+    transition: 0.3s;
+    color:white;
+    transition: 0.3s;
+}
+
+.twogig-wrapper li{
+    padding: 10px;
+}
+
+.twogig-wrapper h2{
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.twogig-wrapper li:hover {
+    background-color: #4ca84f;
+    color: white;
+    cursor: pointer;
+}
