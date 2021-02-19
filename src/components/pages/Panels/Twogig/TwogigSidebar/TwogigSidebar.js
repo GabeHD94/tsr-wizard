@@ -1,12 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import {useSpring, animated} from 'react-spring'
 import './TwogigSidebar.css'
 
 function TwogigSidebar() {
+    const props = useSpring({
+        from: { opacity: 0, transform: "translateX(-50%)" },
+        to: { opacity: 1, transform: "translateX(0%)" },
+        leave: { opacity: 0, transform: "translateX(50%)" },
+    })
 
 
-
-    return (
+    return (            
+    <animated.div style={props}>
         <div className='twogig-sidebar-wrapper'>
             <h1>2GIG Panel</h1>
             <ul className='bu-wrapper'>
@@ -41,7 +47,6 @@ function TwogigSidebar() {
                     <li>
                         Calibrate Touch Screen
                     </li>
-
                     <li>
                         Date Settings
                     </li>
@@ -84,6 +89,7 @@ function TwogigSidebar() {
             &nbsp;
 
         </div>
+        </animated.div>
     )
 }
 
