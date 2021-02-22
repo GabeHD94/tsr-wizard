@@ -38,26 +38,3 @@
     margin-left: 2vw
 }
 
-
-.submenu {
-    width: 90vw;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-}
-.submenu-item {
-    padding: 15px;
-}
-.submenu-top {
-    display: flex;
-    justify-content: space-around;
-}
-.submenu-bottom {
-    display: flex;
-}
-.submenu-bottom-item {
-    flex: 1;
-}

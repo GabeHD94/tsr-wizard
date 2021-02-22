@@ -1,9 +1,22 @@
 .tg-arm-disarm {
-    /* display: grid; */
-    color: gray;
-    align-items: center;
-    padding: 10px;
-    min-width: 100rem;
-    min-height: 10rem;
+    color: rgb(92, 92, 92);
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:0rem auto 0rem auto;
 }
 
+.list-indent{ 
+    margin-left: 20px;
+  }
+
+  .tg-arm-disarm-steps {
+    font-size: 15px;
+    text-align: left;
+    margin: 20px;
+    width:30em;
+}
+
+.tg-arm-disarm-steps li{
+    margin: 8px;
+}
