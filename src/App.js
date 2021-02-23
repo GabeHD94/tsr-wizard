@@ -11,6 +11,7 @@ import Home from './components/pages/Home/Home'
 import Navbar from './components/Navbar';
 import Twogig from './components/pages/Panels/Twogig/Twogig'
 
+
 function App() {
   return (
     <Router>

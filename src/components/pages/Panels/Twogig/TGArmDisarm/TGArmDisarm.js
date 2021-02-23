@@ -20,9 +20,10 @@ function TGArmDisarm() {
             {mode ?
                 <div className='tg-arm-disarm'>
                     <animated.div style={props}>
-                        <h1>
-                            Arm/Disarm
-                </h1>
+                    <div className="tg-headers">
+                        <h1>Arm/Disarm</h1>
+                        <h3 className="tg-mode">Overview</h3>
+                    </div>
                         <img className="tg-panelpic" src={TGPanel} alt="TGPanel" />
                         <div className="TG">
                         </div>
@@ -47,10 +48,11 @@ function TGArmDisarm() {
                                 </ul>
                             </li>
                         </ol>
-                    <h2 className="tg-ss-mode" onClick={()=>setMode(!mode)}>Step-by-Step Mode</h2>
+                        <h2 className="tg-ss-mode" onClick={() => setMode(!mode)}>Step-by-Step Mode</h2>
                     </animated.div>
                 </div>
                 : <TGArmDisarmSS />}
+                
         </div>
     )
 }
