@@ -1,16 +1,12 @@
 .tg-arm-disarm {
     color: rgb(92, 92, 92);
-    display:flex;
-    flex-wrap:wrap;
-    text-align:center;
-    margin:0rem auto 0rem auto;
 }
 
 .list-indent{ 
     margin-left: 20px;
-  }
+}
 
-  .tg-arm-disarm-steps {
+.tg-arm-disarm-steps {
     font-size: 15px;
     text-align: left;
     margin: 20px;
@@ -19,4 +15,34 @@
 
 .tg-arm-disarm-steps li{
     margin: 8px;
+}
+
+.tg-container {
+    flex-wrap:wrap;
+    text-align:center;
+    display: flex;
+    margin:0rem auto 0rem auto;
+}
+
+.tg-panelpic {
+    width: 80%;
+    height: 80%;
+}
+
+.tg-ss-mode {
+    color: white;
+    cursor: pointer;
+    background: rgb(187, 187, 187);
+    width: 12vw;
+    padding: 1vw;
+    margin:0rem auto 0rem auto;
+    text-align:center;
+    transition: 0.3s;
+}
+
+.tg-ss-mode:hover {
+    color: white;
+    cursor: pointer;
+    background: rgb(102, 102, 102);
+
 }
